@@ -1,5 +1,6 @@
 import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
+import ActivityCart from '../ActivityCart/ActivityCart';
 import Works from '../Works/Works';
 
 const GymWorks = () => {
@@ -29,7 +30,10 @@ const GymWorks = () => {
                                 }
                     </div>
                     <div>
-                                
+                                <ActivityCart
+                                   cart ={cart}
+                                   key={cart.id}
+                                ></ActivityCart>
                     </div>
                 </div>
         </div>
