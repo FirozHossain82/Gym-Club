@@ -4,6 +4,13 @@ import Works from '../Works/Works';
 
 const GymWorks = () => {
     const [items, setItems] = useState([]);
+    const[cart, setCart] = useState([])
+    
+    const handleAddToCart =(item)=>{
+        let newCart =[...cart,item];
+        setCart(newCart);
+    }
+
     useEffect(()=>{
         fetch('FakeData.json')
         .then(res => res.json())
@@ -17,7 +24,7 @@ const GymWorks = () => {
                                     items.map(item=><Works 
                                         key={item.id}
                                         item= {item}
-                                        // handleAddToCart={handleAddToCart}
+                                        handleAddToCart={handleAddToCart}
                                     ></Works>)
                                 }
                     </div>
