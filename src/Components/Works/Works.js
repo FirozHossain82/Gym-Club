@@ -13,7 +13,7 @@ const Works = ({item,handleAddToCart}) => {
                         <p className='py-2 font-bold'>Time : <span className='text-cyan-600'>{time} s</span></p>
                         <p>{description}</p>
                 <div className="card-actions py-4">
-                    <button onClick={()=>handleAddToCart(item)} className="btn btn-primary bg-indigo-600">Add To List</button>
+                    <button onClick={()=>handleAddToCart(item)} className="btn btn-primary ">Add To List</button>
                 </div>
                 </div>
             </div>

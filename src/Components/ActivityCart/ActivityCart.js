@@ -1,9 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
 const ActivityCart = (props) => {
     const {cart} = props;
     const[breakTime, setBreakTime] = useState('');
+    const successHandle = () => {
+        toast('Today Your Task Completed');
+    }
+
+
+
     let totalTime = 0;
     for (const item of cart) {
         totalTime = Number(totalTime + item.time);
@@ -87,9 +98,16 @@ const ActivityCart = (props) => {
                             <p><span className='pr-2 text-lg font-bold'>{Number(breakTime)}</span>s</p>
                         </div>
                     </div>
+                    <div className="">
+                        <button onClick={() => successHandle()} className="btn btn-success text-sm lg:text-lg">Activity Completed</button>
+                    </div>       
+
+                     <  ToastContainer></ToastContainer>    
+
                 </div>
             </div>
         </div>
+      
     );
 };
 
