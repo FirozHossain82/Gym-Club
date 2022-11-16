@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "Chest: Cable Crossover",
+        "time": 15,
+        "description": "Pull your hands down in front of your body in an arc shape until your hands meet around a foot in front of your midriff.",
+        "img": "firozhossain82.github.io/Gym-Data/Images/Chest Cable Crossover.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Deadlift",
+        "time": 25,
+        "description": "Deadlifts are highly effective at increasing functional strength due to the activation of your largest lower body muscles.",
+        "img": "firozhossain82.github.io/Gym-Data/Images/deadlift.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Dumbbell Bench-press",
+        "time": 35,
+        "description": "The dumbbell bench press is a variation of the barbell bench press and an exercise used to build the muscles of the chest.",
+        "img":  "firozhossain82.github.io/Gym-Data/Images/Dumbbell Bench-press.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Dumbbell Curl",
+        "time": 20,
+        "description": "The dumbbell curl is an isolation exercise that targets the biceps muscles on the front of your arms.",
+        "img":  "firozhossain82.github.io/Gym-Data/Images/Dumbbell Curl.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Lifting",
+        "time": 25,
+        "description": "Weight lifting and similar strength training activities are examples of anaerobic exercise.",
+        "img":  "firozhossain82.github.io/Gym-Data/Images/Lifting.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Pulldown",
+        "time": 30,
+        "description": "The pull-down exercise is a strength training exercise designed to develop the latissimus dorsi muscle.",
+        "img":  "firozhossain82.github.io/Gym-Data/Images/Pulldown.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Pull-up",
+        "time": 25,
+        "description": "The pull-up is one of the most effective exercises for strengthening the back muscles. ",
+        "img": "firozhossain82.github.io/Gym-Data/Images/Pull-up.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Push-Down",
+        "time": 30,
+        "description": "A push-down is a strength training exercise used for strengthening the triceps muscles in the back of the arm.",
+        "img":  "firozhossain82.github.io/Gym-Data/Images/Pushdown.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Squat",
+        "time": 40,
+        "description": "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.",
+        "img":  "firozhossain82.github.io/Gym-Data/Images/Squat.jpg"
+    }
+]
